@@ -346,7 +346,7 @@ article.active {
 }
 
 .has-scrollbar::-webkit-scrollbar-track {
-  background: var(--onyx);
+  background: var(--white-1);
   border-radius: 5px;
 }
 
@@ -1022,14 +1022,16 @@ main {
   justify-content: flex-start;
   align-items: center;
   gap: 15px;
-  margin: 0 -15px;
-  padding: 25px;
-  padding-bottom: 25px;
+  margin: 0;
+  padding: 15px;
+  padding-bottom: 15px;
   overflow-x: auto;
   scroll-behavior: smooth;
   overscroll-behavior-inline: contain;
   scroll-snap-type: inline mandatory;
-  scroll-padding-inline: 25px;
+  scroll-padding-inline: 15px;
+  background: var(--white-1);
+  border-radius: 14px;
 }
 
 .clients-item {
@@ -1055,6 +1057,10 @@ main {
   object-fit: contain;
   filter: none;
   transition: var(--transition-1);
+}
+
+.diksha-logo-large {
+  transform: scale(1.5);
 }
 
 /*-----------------------------------*\
@@ -1879,7 +1885,7 @@ textarea.form-input::-webkit-resizer {
 
   .clients-list {
     gap: 50px;
-    margin: 0 -30px;
+    margin: 0;
     padding: 45px;
     scroll-padding-inline: 45px;
   }
